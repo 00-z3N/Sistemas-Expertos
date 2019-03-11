@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
+	  maximum-scale=1.0, minimum-scale=1.0">
+    <title>OMCode</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/freeLogo.jpeg" type="image/x-icon"/>
+  </head>
+  <body>
+
+    <!-- NAVEGACIÓN -->
+    <nav id="barra-navegacion" class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div id="fijo" class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/Logo1.png" style="width: 15%;">
+        </a>
+        <button id="boton-media" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#vs">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#vt">¿FULL?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">¡Ingresa YA!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registro.html">¡Regístrate!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!--PARTE PRINCIPAL-->
+
+    <!--BARRA DE REDES SOCIALES-->
+
+          <div class="social-bar">
+            <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank"></a>
+            <a href="https://twitter.com" class="icon icon-twitter" target="_blank"></a>
+            <a href="https://www.youtube.com" class="icon icon-youtube" target="_blank"></a>
+          </div>
+
+    <!-- VISTA PRIMARIA  -->
+
+            <div id="vp" class="conten-1 imagen-media">
+                    <h1>¿CANSADO de buscar alternativas para codificación online?</h1>
+                    <p>¿Sí?... ¡Pincha el botón de abajo!</p>
+                    <a href="#vs" class="btn btn-primary">¡Pínchame!</a>
+            </div>
+
+  
+    <!-- VISTA SECUNDARIA  -->
+            <!--JUMBOTRON-->
+           <div id="vs" class="jumbotron" style="background-color:white;">
+            <div class="container" style="opacity: 0.9;">
+             <div class="row">
+               <!--DIV IZQUIERDA / LOGO-->
+              <div id="div-izq-logo" class="col-sm-6 btn-holder">
+                <img src="img/logo1.png" alt="">
+              </div>
+              <!--DIV DERECHO / TEXTO/ACORDEÓN-->
+               <div class="col-sm-6" style="background-color:black;">
+                 <h1 class="texto-v2">
+                   ¡NO BUSQUES MÁS! <br>
+                 </h1>
+                 
+                <h4 class="texto-v2">OMCode te ofrece la posibilidad de hacerlo de forma fácil, rápida y gratuita. </h4>
+
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Qué es OMCode?
+                          </button>
+                        </h5>
+                      </div>
+                  
+                      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                         <h4>OMCode es un sitio web que te ofrece la posibilidad de realización codificación HTML, CSS 
+                           y Javascript, de forma completamente gratuita, fácil y rápida.
+                         </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Podré almacenar mis proyectos en OMCode?
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                          <h4>
+                            ¡Por supuesto!; OMCode te permite almacenar tus proyectos en la nube, para que 
+                            puedas acceder, y trabajar en ellos desde cualquier lugar.
+                          </h4>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Podré compartir mis proyectos en OMCode?
+                          </button>
+                        </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                          <h4>
+                            ¡Desde Luego!; OMCode te permite también poder compartir carpetas de código.
+                          </h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <br>
+                  <a id="boton-v2" href="registro.html" class="btn btn-primary">¿Por qué no te REGISTRAS?</a>
+
+                </div>
+             </div>
+           </div>
+          </div>
+
+      <!--PIE DE PÁGINA-->
+        
+      <footer>
+        <div class="container p-3">
+          <div class="row text-center text-white">
+            <div class="col ml-auto">
+              <p>Olvin Martínez - 2019</p>
+            </div>
+          </div>
+        </div>       
+      </footer>
+
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

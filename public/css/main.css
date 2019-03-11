@@ -1,0 +1,207 @@
+
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+  left: 0px;
+  top: 0px;
+}
+
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+
+.form-control, .btn{
+  border-radius: 0;
+}
+
+.team, footer {
+  background: black;
+}
+
+#barra-navegacion{
+  background-color: black!important;
+
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, p{
+	color:white;
+}
+
+/*CONTENIDO VISTA 1*/
+
+.conten-1 {
+	background-image: url('../img/fondo.png');
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.conten-1:before{
+	content:"";
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	position: absolute;
+	opacity: 0.7;
+}
+
+.conten-1 h1,p, a{
+	position: relative;
+}
+
+.conten-1 h1{
+	font-size: 60px;
+	font-family: "lato"!important;
+	width: 50%;
+	text-align: center;
+}
+
+.conten-1 p{
+	font-size: 20px;
+	font-family: sans-serif;
+	/*width: 60%*/
+	text-align: center;
+}
+
+/*CONTENIDO VISTA 2*/
+
+	.texto-v2{
+		color:white;
+		text-align: center;
+	}
+
+	#boton-v2{
+		bottom: 5px;
+	}
+
+/*CONTENIDO VISTA 3*/
+
+/*MEDIA QUERIES*/
+
+@media(max-width:600px){
+  .conten-1 h1{
+    position: relative;
+    font-size: 30px;
+    color: black;
+    font-family: Impact!important;
+	}
+	
+	#div-izq-logo{
+		display: none;
+	}
+  .conten-1 p{
+    font-size: 20px;
+    color: black;
+  }
+  .conten-1:before{
+    opacity:0.6;
+    background-color: white!important;
+  }
+  .conten-1{
+    background-image: url('../img/Logo1.png');
+    height: 400px;
+  }
+  .imagen-media{
+    background-image: url('../img/Logo1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+  }
+  .navbar{
+    padding: 5px!important;
+  }
+  #boton-media{
+  position: relative;
+  }
+  /*.social-bar{
+    position: relative;
+    left: 0;
+    flex-direction: row;
+    
+  }*/
+
+
+}
+
+/*ESTILOS DEL BARRA DE REDES SOCIALES*/
+
+html {
+	font-size: 16px;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 30%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #2E406E;
+}
+
+.icon-twitter {
+	background: #339DC5;
+}
+
+.icon-youtube {
+	background: #E83028;
+}
+
+
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+
+/*.conten{
+	background-image: url('../img/fondo.png');
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}*/
+
+

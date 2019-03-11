@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+
+     <!-- BOOTSTRAP CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+     <!-- FONT AWESOME -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+     <!-- CUSTOM CSS -->
+     <link rel="stylesheet" href="css/font.css">
+     <link rel="stylesheet" href="css/registro.css">
+     <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/freeLogo.jpeg" type="image/x-icon"/>
+</head>
+<body>
+
+    <div>
+
+    </div>
+    <form class="form-register">
+		<h2 class="form_titulo">¡INGRESA!</h2>
+		<div class="contenedor-inputs">
+
+			<input type="text" name="u_usuario" placeholder="Usuario" class="input-100" autocomplete="off" required="">
+			<input type="password" name="u_psw1" placeholder="Constraseña" class="input-100" autocomplete="off" id="p1" required="">
+
+			<button type="submit" id="btnToast" value="Login" class="btn btn-outline btn-success btn-enviar" onClick="funcionAlerta()" >Login</button>
+			<button type="button" class="btn btn-outline btn-primary"><span class="glyphicon glyphicon-ban-circle"></span>Volver</button>			
+
+		</div>
+	</form>
+</body>
+</html>

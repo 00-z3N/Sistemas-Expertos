@@ -1,0 +1,88 @@
+/*ESTILOS REGISTRO*/
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+	margin-top: 20px;
+	font-family: "lato"!important;
+	background-image: url(../img/fondo.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+h1{
+	color: #f1f1f1;
+	text-align: center;
+}
+
+.form-register{
+	
+	width: 95%;
+	max-width: 500px;
+	margin: auto;
+	background: #0d051a;
+	border-radius: 7px;
+
+}
+.form_titulo{
+	background: deeskyblue;
+	font-family: serif;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 30px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 10px solid white;
+}
+
+.contenedor-inputs{
+	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+input{
+	margin-bottom: 15px;
+	padding:  15px;
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid darkgray;
+}
+.input48{
+	width: 48%;
+}
+
+.input-100{
+	width: 100%;
+	
+}
+
+.btn-enviar{
+	background: rgb(20, 220, 120);
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+
+}
+
+.form_link{
+	width: 100%;
+	margin: 7px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media(max-width:600px){
+	body{
+		background-image: none;
+		background-color: black!important;
+	}
+}
