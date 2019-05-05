@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#htmlEditor{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+#cssEditor{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+#javascriptEditor{
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+}
+#result{
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+}
+
+#contenedorcito{
+    height: 100%;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
